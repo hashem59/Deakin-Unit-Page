@@ -16,4 +16,20 @@ p {
   font-family: Arial
 }
 
+.header {
+  background-color: darkcyan;   /* teal/green as required */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;    /* push logo to the right */
+  align-items: center;
+}
 
+/* Logo size inside the header */
+.header img {
+  height: 90px;                 /* adjust if needed */
+  width: auto;
+}
+
+/* Add some space below the bar before the title */
+body { margin: 0; }
+h1   { margin: 24px 20px 0; }
